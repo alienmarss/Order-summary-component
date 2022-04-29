@@ -1,0 +1,129 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Red Hat Display", sans-serif;
+	background-image: url(/desktop.svg);
+	background-color: hsl(225, 100%, 94%);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100% 45%;
+}
+
+.img {
+	width: 100%;
+}
+.card {
+	background-color: #ffffff;
+	width: 25rem;
+	height: 40rem;
+	border-radius: 1rem;
+	margin: 4rem auto;
+	overflow: hidden;
+	box-shadow: 0px 20px 30px 0px rgb(0, 0, 0, 0.15);
+}
+.summary-name {
+	font-size: 1.6em;
+	font-weight: 900;
+	color: hsl(223, 47%, 23%);
+	padding-top: 3rem;
+	text-align: center;
+}
+.summary-text {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #868e96;
+	text-align: center;
+	padding: 1.2rem 1.5rem 0 1.5rem;
+	line-height: 1.5;
+}
+.cta {
+	background-color: hsl(225, 100%, 98%);
+	display: grid;
+	grid-template-columns: 1fr 2.5fr 1fr;
+
+	width: 20rem;
+	border-radius: 0.5rem;
+	padding: 1.3rem;
+	margin: 1rem auto 1.8rem;
+}
+.plan {
+	display: flex;
+	flex-direction: column;
+	gap: 0.3rem;
+}
+.price {
+	color: #868e96;
+}
+.plan-name {
+	font-weight: 900;
+	color: hsl(223, 47%, 23%);
+}
+.btn-change {
+	display: flex;
+	align-items: center;
+	font-size: 0.9rem;
+	color: #3829e0;
+	font-weight: 700;
+	cursor: pointer;
+}
+.btn-change:hover,
+.btn-change:active {
+	color: #7469e9;
+	text-decoration: none;
+	transition: all 0.5s;
+}
+
+.btn {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.btn-payment {
+	display: flex;
+	justify-content: center;
+	width: 20rem;
+	font-size: 1rem;
+	padding: 10px 12px;
+	background-color: rgb(56, 41, 224);
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 0.5rem;
+	margin-bottom: 1.8rem;
+	font-size: 0.9rem;
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: 0px 20px 30px 10px rgba(56, 41, 224, 0.18);
+}
+.btn-payment:hover,
+.btn-payment:active {
+	background-color: #7469e9;
+	transition: all 0.5s;
+}
+.btn-cancel {
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	color: #868e96;
+	font-weight: 900;
+	font-size: 0.8rem;
+	cursor: pointer;
+}
+.btn-cancel:hover,
+.btn-cancel:active {
+	color: #1b1c1e;
+	transition: all 0.5s;
+}
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
