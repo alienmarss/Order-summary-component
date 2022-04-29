@@ -56,7 +56,7 @@
 
 @media only screen and (max-width: 49em) {
 	body {
-		background-image: url(/mobile.svg);
+		background-image: url(mobile.svg);
 		background-color: hsl(225, 100%, 94%);
 		background-repeat: no-repeat;
 		background-position: top;
